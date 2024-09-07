@@ -1,10 +1,10 @@
-# Microsoft Florence-2 Vision Model
+# Microsoft Florence-2 Vision Model for Brain CT Images
 
-This project demonstrates the use of Microsoft's Florence-2 Vision Model for various computer vision tasks using a Gradio interface.
+This project fine-tuned Microsoft's Florence-2 Vision Model for detecting region of interest in Brain CR Image and caption details.
 
 ## Overview
 
-Florence-2 is a novel vision foundation model designed to handle a variety of computer vision and vision-language tasks with simple text prompts. This project allows you to upload an image and select a task to perform, such as object detection, OCR, captioning, and more.
+Florence-2 is a novel vision foundation model designed to handle a variety of computer vision and vision-language tasks with simple text prompts. This project allows you to upload an CT image and select a task to perform, such as region of interest detection, captioning, generate a JSON record and more.
 
 ## How to Run
 
@@ -17,7 +17,7 @@ Florence-2 is a novel vision foundation model designed to handle a variety of co
 2. **Run the script**:
    Execute the Python script to start the Gradio interface:
    ```bash
-   python ms-florence-2-gradio-v2.py
+   python app.py
    ```
 
 3. **Use the Gradio Interface**:
@@ -29,17 +29,12 @@ Florence-2 is a novel vision foundation model designed to handle a variety of co
 
 ## Available Tasks
 
-- **Object Detection**
-- **OCR**
-- **OCR with Region**
 - **Caption**
 - **Detailed Caption**
-- **More Detailed Caption**
-- **Caption to Phrase Grounding**
-- **Dense Region Caption**
-- **Region Proposal**
-- **Expression Segmentation**
-- **Open Vocabulary Detection**
+- **Region of Interest** 
+- **Detect Region Location**
+- **Region Location Description**
+- **Json Record**
 
 ![image](./images/cover.png "Example of a detection")
 
@@ -67,8 +62,8 @@ Make sure to install these dependencies before running the script.
 Enjoy exploring the capabilities of the Florence-2 Vision Model!
 
 ### Example of a detailed caption
-![image](./images/caption1.jpg "Example of a detailed caption")
+![image](./images/brain_ct_image11.jpg "Example of a detailed caption")
 ### Example of a segmentation 'a cup of coffee'
-![image](./images/caption2.jpg "Example of a segmentation")
+![image](./images/brain_ct_image60.jpg "Example of a segmentation")
 ### Example of detailed object detection
-![image](./images/caption3.jpg "Example of detailed object detection")
+![image](./images/brain_ct_image490.jpg "Example of detailed object detection")
