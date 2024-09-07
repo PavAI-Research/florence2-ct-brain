@@ -2,7 +2,7 @@
 
 This project fine-tuned Microsoft's Florence-2 Vision Model for detecting region of interest in Brain CR Image and caption details.
 
-![image](./Florence-2-brain_ct-demo.png "gradio demo app")
+![image](./images/Florence-2-brain_ct-demo.png "gradio demo app")
 
 ## Overview
 
