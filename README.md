@@ -2,6 +2,8 @@
 
 This project fine-tuned Microsoft's Florence-2 Vision Model for detecting region of interest in Brain CR Image and caption details.
 
+![image](./Florence-2-brain_ct-demo.png "gradio demo app")
+
 ## Overview
 
 Florence-2 is a novel vision foundation model designed to handle a variety of computer vision and vision-language tasks with simple text prompts. This project allows you to upload an CT image and select a task to perform, such as region of interest detection, captioning, generate a JSON record and more.
